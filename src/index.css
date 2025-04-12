@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #5865f2;
+  --primary-dark: #4752c4;
+  --secondary: #99aab5;
+  --secondary-dark: #7d8991;
+  --dark: #2c2f33;
+  --darker: #23272a;
+  --success: #57f287;
+  --danger: #ed4245;
+  --warning: #fee75c;
+  --bg-primary: #f8f9fa;
+  --bg-secondary: #ffffff;
+  --text-primary: #2c2f33;
+  --text-secondary: #72767d;
+}
+
+.dark {
+  --bg-primary: #23272a;
+  --bg-secondary: #2c2f33;
+  --text-primary: #ffffff;
+  --text-secondary: #99aab5;
+}
+
+/* Basic utility classes */
+.btn {
+  @apply py-2 px-4 rounded-md font-medium transition-all duration-200;
+}
+
+.btn-primary {
+  @apply bg-primary text-white;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md p-6;
+}
