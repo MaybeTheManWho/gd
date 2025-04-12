@@ -1,0 +1,51 @@
+:root {
+    /* Colors */
+    --primary: #5865f2;
+    --primary-dark: #4752c4;
+    --secondary: #99aab5;
+    --secondary-dark: #7d8991;
+    --success: #57f287;
+    --success-dark: #45c66c;
+    --danger: #ed4245;
+    --danger-dark: #c1383a;
+    --warning: #fee75c;
+    --warning-dark: #dbc64c;
+    
+    /* Light theme */
+    --bg-primary: #f8f9fa;
+    --bg-secondary: #ffffff;
+    --bg-card: #ffffff;
+    --text-primary: #2c2f33;
+    --text-secondary: #72767d;
+    --text-heading: #23272a;
+    --border: #e3e5e8;
+    
+    /* Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    
+    /* Z-indices */
+    --z-sidebar: 40;
+    --z-navbar: 50;
+    --z-dropdown: 100;
+    --z-modal: 1000;
+  }
+  
+  /* Dark theme */
+  .dark {
+    --bg-primary: #23272a;
+    --bg-secondary: #2c2f33;
+    --bg-card: #2c2f33;
+    --text-primary: #ffffff;
+    --text-secondary: #99aab5;
+    --text-heading: #ffffff;
+    --border: #4d5154;
+    
+    /* Dark theme shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.3), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  }
